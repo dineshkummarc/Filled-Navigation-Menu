@@ -1,0 +1,110 @@
+@charset "utf-8";
+/* CSS Document */
+@import url('reset.css');
+
+body{
+background:#000000; }
+
+#nav
+{
+background: url(images/slice.jpg) repeat-x;
+width:100%;
+height:70px;
+}
+#navigation 
+{
+margin-left:250px;
+}
+
+
+
+#navigation li
+{
+
+float:left;
+display:block;
+}
+
+#navigation li a
+{
+background-image:url(images/sprite.jpg);
+display: block;
+	outline: none;
+	position: relative;
+	height: 70px;
+	text-decoration: none;
+	width: auto;
+
+}
+
+
+
+	
+	#navigation .home 
+	{
+	background-position:0px 0px;
+	width:102px;
+	height:70px;
+	
+	}
+	
+	#navigation .services 
+	{
+	background-position:-102px 0px;
+	width:110px;
+	height:70px;
+	}
+	
+	#navigation .portfolio 
+	{
+	background-position:-212px 0px;
+	width:108px;
+	height:70px;
+	}
+	
+	#navigation .about 
+	{
+	background-position:-320px 0px;
+	width:102px;
+	height:70px;
+	}
+	
+	#navigation .contact 
+	{
+	background-position:-422px 0px;
+	width:103px;
+	height:70px;
+	}
+	
+	
+	
+	#navigation a .hover {
+	background: transparent  url(images/sprite.jpg) no-repeat;
+	display:block ;
+	opacity: 0;
+	position: relative;
+	top: 0;
+	left: 0;
+	height: 100%;
+	width: 100%;
+	
+	}
+	
+	#navigation .home .hover {
+	background-position: -0px -72px;
+	
+	}
+	#navigation .services .hover{
+	background-position: -102px -72px;
+	
+	}
+	#navigation .portfolio .hover {
+	background-position: -212px -72px;
+	}
+	#navigation .about .hover {
+	background-position: -320px -72px;
+	}
+	#navigation .contact .hover {
+	background-position: -422px -72px;
+	}
+	
